@@ -2,12 +2,12 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        StringBuilder cad=new StringBuilder(100000);
+        //StringBuilder cad=new StringBuilder(100000);
         //la cadena no puede ser negativa
         try{
             System.out.println(getPosicionMontaniaMasAlta("+-+-+++--+--"));
             System.out.println(getPosicionMontaniaMasAlta("+++-++-+--+++-+++--+"));
-            System.out.println(getPosicionMontaniaMasAlta(cad.toString()));
+          //  System.out.println(getPosicionMontaniaMasAlta(cad.toString()));
         }catch(Exception e){
             System.out.println(e.toString());
         }
